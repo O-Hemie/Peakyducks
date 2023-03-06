@@ -1,0 +1,10 @@
+first initialize the heating_on variable to False and the max_pressure variable to 100.  pressure at full capacity.
+
+main loop; read the sensor input 10 times and count the number of people detected. Calculate the heating pressure based on the number of people detected and set the pressure variable accordingly.
+
+If there are people in the building,  check to see if the heating system is currently on or off. If it's off, print a message indicating how many people are in the building and that the heating system is getting turned on, and set heating_on to True. If it's already on, print a message indicating how many people are in the building and the current heating pressure.
+
+If there are no people in the building, check whether the heating system is currently on or off. If it's on,  print turning off the heating system and set heating_on to False. If it's already off, print no people detected, system off.
+
+Note that in this example, we're assuming that the sensor is not very precise and may detect false positives or false negatives. Therefore, we read the sensor input 10 times and count the number of times it detects a person within that time frame. This helps to reduce the likelihood of false positives and false negatives.
+
